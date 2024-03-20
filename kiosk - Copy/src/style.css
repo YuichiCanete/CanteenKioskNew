@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+
+.bg-pink th, .bg-pink td {
+vertical-align: top;
+padding: 10px;
+}
+
+.bg-pink, .btn, img, .form-control{
+    box-shadow: 0 3px 3px #581f30;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.bg-pink {
+    background-color: #F02E65;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(139, 14, 49);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(90, 2, 27);
+}
